@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         // Define quais destinos são considerados "de nível superior" (ex: home, perfil).
         // Nesses destinos, a Toolbar exibirá o ícone de menu (hambúrguer) em vez da seta de "voltar".
         appBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_cadastrar)
+                R.id.nav_home)
                 .setOpenableLayout(binding.drawerLayout) // Associa a configuração ao nosso DrawerLayout.
                 .build();
 
